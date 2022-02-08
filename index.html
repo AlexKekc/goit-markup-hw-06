@@ -453,6 +453,27 @@
           </li>
         </ul>
       </div>
+
+      <div class="footer-form-decor">
+        <p class="footer-form-title">Подпишитесь на рассылку</p>
+        <form class="footer-form">
+          <div class="footer-form-field">
+            <label for="footer-user-email" class="footer-form-label"></label>
+            <input 
+              type="email" 
+              name="user-email" 
+              class="footer-form-input" 
+              placeholder="E-mail" 
+              required id="footer-user-email" 
+            />
+          </div>
+          <button type="submit" class="button footer-form-btn">Подписаться
+            <svg class="footer-send-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
   </footer>
 
@@ -464,6 +485,37 @@
           <use href="./images/icons.svg#close-btn"></use>
         </svg>
       </button>
+      <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+      <form class="modal-form">
+        <div class="modal-form-field">
+          <label for="user-name" class="modal-form-label">Имя</label>
+          <input 
+            type="text" 
+            name="user-name" 
+            class="modal-form-input" 
+            required id="user-name" 
+          />
+        </div>
+        <div class="modal-form-field">
+          <label for="user-tel" class="modal-form-label">Телефон</label>
+          <input 
+            type="tel" 
+            name="user-tel" 
+            class="modal-form-input" 
+            required id="user-tel" 
+          />
+        </div>
+        <div class="modal-form-field">
+          <label for="user-email" class="modal-form-label">Почта</label>
+          <input 
+            type="email" 
+            name="user-email" 
+            class="modal-form-input" 
+            required id="user-email" 
+          />
+        </div>
+        <button type="submit" class="button modal-form-btn">Отправить</button>
+      </form>
     </div>
   </div>
 
