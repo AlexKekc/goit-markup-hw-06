@@ -678,8 +678,6 @@ body {
 }
 
 .footer-form-btn {
-  position: relative;
-
   margin-left: 12px;
 
   width: 200px;
@@ -697,9 +695,7 @@ body {
 }
 
 .footer-send-icon {
-  position: absolute;
-  top: 13px;
-  right: 28px;
+  margin-left: 10px;
 }
 
 .modal-form-btn {
